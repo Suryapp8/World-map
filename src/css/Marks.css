@@ -1,0 +1,19 @@
+path {
+    stroke-linejoin: square;
+    stroke-linecap: square;
+    width: 100%;
+  }
+.marks .countries {
+    fill: #8676FF;
+    
+    
+}
+.marks .sphere{
+    fill:#EEF0FA;
+}
+
+.marks .interiors{
+   fill: none;
+   stroke: #EEF0FA;
+   stroke-width: 0.5px;
+}

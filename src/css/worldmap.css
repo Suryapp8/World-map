@@ -1,0 +1,205 @@
+.container {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  background: #eef0fa;
+}
+.left {
+  float: left;
+  width: 20%;
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: left;
+}
+
+.con-title {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  padding-top: 0.2rem;
+  width: 22.5rem;
+  color: #000000;
+  padding-left: 2.5rem;
+  padding-bottom: 0%;
+  margin-bottom: 10%;
+}
+
+.left > p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3rem;
+  letter-spacing: 0.15px;
+  color: #383874;
+  margin-left: 0%;
+  padding-left: 2.5rem;
+  padding-bottom: 0%;
+  padding-top: 0%;
+  margin-bottom: 0%;
+  margin-top: 0%;
+}
+
+.left > p > span {
+  width: 2.56rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  padding-left: 2rem;
+  color: #383874;
+}
+
+.total-num {
+  width: 19.375rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.5rem;
+  color: #383874;
+  letter-spacing: -1.75px;
+  padding-bottom: 5%;
+  padding-top: 0%;
+  margin-bottom: 5%;
+  margin-top: 0%;
+  padding-left: 2.5rem;
+}
+
+.right {
+  height: 70vh;
+  width: 80%;
+}
+
+.p-tag {
+  display: flex;
+  padding-left: 2.5rem;
+  align-items: center;
+  padding-top: 5%;
+}
+
+.icon-area > p > img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.icon-area > p > span {
+  width: 7.62rem;
+  height: 2rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.44px;
+  color: #383874;
+  padding-left: 2rem;
+}
+
+/* making circle for percentagebar */
+
+.percentage-bar {
+  display: flex;
+
+  padding: 3rem 2rem;
+}
+
+.circle-container {
+  width: 5.5rem;
+  height: 5.5rem;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.circle-container1 {
+  width: 5.5rem;
+  height: 5.5rem;
+  background: #fff;
+  border-radius: 50%;
+  margin-left: 4rem;
+}
+.circle-container .circle .item,
+.circle-container .circle .fill {
+  width: 5.5rem;
+  height: 5.5rem;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-container1 .circle1 .item1,
+.circle-container1 .circle1 .fill1 {
+  width: 5.5rem;
+  height: 5.5rem;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-container .circle .item {
+  clip: rect(0px, 5.5rem, 5.5rem, 3rem);
+}
+
+.circle-container1 .circle1 .item1 {
+  clip: rect(0px, 5.5rem, 5.5rem, 3rem);
+}
+.circle-container .circle .item .fill {
+  clip: rect(0px, 3rem, 5.5rem, 0rem);
+  background-color: #023aff;
+}
+
+.circle-container1 .circle1 .item1 .fill1 {
+  clip: rect(0px, 3rem, 5.5rem, 0rem);
+  background-color: #00b929;
+}
+.circle-container .circle .item.layer-1,
+.circle-container .circle .fill {
+  transform: rotate(27deg);
+  animation: fill ease-in-out 1s;
+}
+
+.circle-container1 .circle1 .item1.layer-3,
+.circle-container1 .circle1 .fill1 {
+  transform: rotate(120deg);
+  animation: fill ease-in-out 1s;
+}
+
+.inside-content {
+  width: 4.25rem;
+  height: 4.25rem;
+  border-radius: 50%;
+  background: #eef0fa;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 4.25rem;
+  font-family: "Poppins";
+  font-style: normal;
+  color: #171725;
+}
+
+.percentage-bar > p {
+  width: 69.83px;
+  height: 29.93px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.25ewm;
+  line-height: 2rem;
+  letter-spacing: 0.44px;
+  color: #383874;
+  margin: 1rem 2rem;
+}
+
+.percentage-bar > p > span {
+  float: left;
+  width: 7rem;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}

@@ -1,0 +1,18 @@
+.footer {
+  position: sticky;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 2.3rem;
+}
+.footer > p {
+  padding: 1rem 3rem 0rem 3rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 16px;
+  color: #5a5a89;
+  letter-spacing: 1.5px;
+}
